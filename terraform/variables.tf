@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "project_name" {
   description = "Project name used for resource naming"
-  default     = "website-monitoring-alerting"
+  default     = "production-ops-platform"
 }
 
 variable "instance_type" {

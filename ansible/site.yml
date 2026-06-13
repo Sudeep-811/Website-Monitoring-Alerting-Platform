@@ -1,0 +1,12 @@
+---
+- name: Configure Jenkins Server
+  hosts: jenkins
+  become: yes
+  roles:
+    - jenkins
+
+- name: Configure Monitoring Server
+  hosts: monitoring
+  become: yes
+  roles:
+    - monitoring

@@ -1,0 +1,10 @@
+---
+- name: Restart Jenkins
+  systemd:
+    name: jenkins
+    state: restarted
+
+- name: Restart Docker
+  systemd:
+    name: docker
+    state: restarted

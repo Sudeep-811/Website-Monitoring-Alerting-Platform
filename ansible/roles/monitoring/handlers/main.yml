@@ -1,0 +1,10 @@
+---
+- name: Restart Docker
+  systemd:
+    name: docker
+    state: restarted
+
+- name: Restart Node Exporter
+  systemd:
+    name: node_exporter
+    state: restarted

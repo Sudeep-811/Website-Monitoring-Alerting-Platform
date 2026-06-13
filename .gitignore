@@ -1,0 +1,26 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Secrets
+*.pem
+*.key
+.env
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jenkins
+jenkins/workspace/
